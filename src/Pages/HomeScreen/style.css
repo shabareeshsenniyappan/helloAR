@@ -52,7 +52,7 @@ tr {
 .pagination-container {
   margin-top: 20px;
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
   align-items: center;
 }
 .page_button {

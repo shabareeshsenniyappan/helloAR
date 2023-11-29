@@ -48,7 +48,12 @@ const AudioPlayer = ({ playable_song, playNextSong, playPrevSong }) => {
       />
       <div className={"audio-her-container"}>
         <div className={"audio-details"}>
-          <img src={playable_song?.imageURL} width={66} height={66} />
+          <img
+            src={playable_song?.imageURL}
+            alt={playable_song?.songName}
+            width={66}
+            height={66}
+          />
           <span className={"typo-song-name-player"}>
             {playable_song?.songName}
           </span>
@@ -61,7 +66,7 @@ const AudioPlayer = ({ playable_song, playNextSong, playPrevSong }) => {
             {isPlaying ? (
               <PauseButton />
             ) : (
-              <img src={play} width={23} height={23} />
+              <img src={play} width={23} height={23} alt={"def"} />
             )}
           </span>
           <span className={"cursor-pointer"} onClick={playNextSong}>

@@ -104,7 +104,7 @@ function PopUpAdd() {
               </div>
               {song?.imageURL && (
                 <div className={"img-adjust"}>
-                  <img src={song?.imageURL} width={40} height={40} />
+                  <img src={song?.imageURL} width={40} height={40} alt={song?.songName}/>
                   <span className="m-10" onClick={clearPhoto}>
                     x
                   </span>

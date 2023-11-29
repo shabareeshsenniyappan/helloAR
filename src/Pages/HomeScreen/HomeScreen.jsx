@@ -63,7 +63,12 @@ function HomeScreen() {
                     <tr key={key}>
                       <td className={"centring"}>
                         {value?.imageURL ? (
-                          <img src={value?.imageURL} width={66} height={66} />
+                          <img
+                            src={value?.imageURL}
+                            width={66}
+                            height={66}
+                            alt={key}
+                          />
                         ) : (
                           <img src={defaultimage} alt={"default"} />
                         )}

@@ -1,6 +1,5 @@
 import { useState } from "react";
 import SignIn from "./Pages/SignIn/SignIn";
-import OTPValidation from "./Pages/OTPValidation/OTPValidation";
 import HomeScreen from "./Pages/HomeScreen/HomeScreen";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
