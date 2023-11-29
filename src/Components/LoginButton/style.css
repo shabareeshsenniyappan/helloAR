@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+.button-login-vilot {
+  width: 410px;
+  height: 50px;
+  top: 572px;
+  left: 513px;
+  border-radius: 12px;
+  background-color: #552583;
+  border: none;
+  color: white;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21px;
+  cursor: pointer;
+}

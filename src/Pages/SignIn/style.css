@@ -1,0 +1,27 @@
+.sign-in-container {
+  /* background-color: aquamarine; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  max-width: 414px;
+  margin: auto;
+  align-self: flex-start;
+}
+
+.left {
+  align-self: flex-start;
+}
+
+.lasy {
+  font-family: Helvetica;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin: 10px;
+  text-decoration: underline;
+  cursor: pointer;
+}

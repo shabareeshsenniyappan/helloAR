@@ -1,0 +1,146 @@
+.yellow-header-button {
+  margin-top: 8px;
+  margin-right: 50px;
+  float: right;
+  background-color: #fdb927;
+  width: 100px;
+  height: 32px;
+  border: none;
+  border-radius: 2px;
+  font-size: 14px;
+  font-weight: 500;
+}
+.pop-up-container {
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0px -1px 0px 0px #f0f0f0 inset;
+  margin-bottom: 20px;
+}
+.typo-add-song {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+}
+.input-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.typo-input-label {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 10px;
+}
+
+.input-full-width {
+  width: 100%;
+  height: 24px;
+  border: 1px solid #d9d9d9;
+  border-radius: 2px;
+}
+
+.input-hero {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 90%;
+  margin-bottom: 20px;
+}
+
+input[type="file"]::file-selector-button {
+  border: 2px solid #6c5ce7;
+  padding: 0.2em 0.4em;
+  border-radius: 0.2em;
+  background-color: #a29bfe;
+  transition: 1s;
+}
+
+input[type="file"]::file-selector-button:hover {
+  background-color: #81ecec;
+  border: 2px solid #00cec9;
+}
+
+.inputfile {
+  width: 0.1px;
+  height: 0.1px;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+}
+
+.inputfile + label {
+  font-size: 1.25em;
+  font-weight: 700;
+  color: white;
+  background-color: black;
+  display: inline-block;
+}
+.labler {
+  border: 1px solid #d9d9d9;
+  width: fit-content;
+  padding: 5px;
+  border-radius: 2px;
+}
+.m-10 {
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.img-adjust {
+  margin: auto;
+  width: 90%;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.cursor {
+  cursor: pointer;
+}
+.disclaimer-text-add {
+  margin: auto;
+  width: 90%;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #00000073;
+}
+
+.pop-up-container-footer {
+  padding: 15px;
+  display: flex;
+  justify-content: flex-end;
+  box-shadow: 0px 1px 0px 0px #f0f0f0 inset;
+  margin-top: 20px;
+}
+
+.button-cancel {
+  padding: 8px;
+  border: 1px solid #d9d9d9;
+  background: linear-gradient(0deg, #ffffff, #ffffff),
+    linear-gradient(0deg, #d9d9d9, #d9d9d9);
+  color: #000000d9;
+  border-radius: 2px;
+  float: right;
+  cursor: pointer;
+}
+
+.button-add {
+  padding: 8px 14px;
+  border: 1px solid #d9d9d9;
+  background: #1890ff;
+  box-shadow: 0px 2px 0px 0px #0000000b;
+  color: #ffffff;
+  border-radius: 2px;
+  float: right;
+  margin-left: 20px;
+  cursor: pointer;
+}

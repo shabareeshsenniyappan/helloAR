@@ -1,0 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+.heading-login {
+  color: #552583;
+  font-family: Roboto;
+  font-size: 38px;
+  font-weight: 500;
+  line-height: 45px;
+  margin-bottom: 8px;
+}
